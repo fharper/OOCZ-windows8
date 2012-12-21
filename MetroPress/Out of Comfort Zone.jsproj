@@ -58,6 +58,7 @@
     <Content Include="css\searchResults.css" />
     <Content Include="images\badgelogo.png" />
     <Content Include="images\blank.png" />
+    <Content Include="images\header.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />

@@ -16,8 +16,8 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="MetroPress" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="MetroPress" ForegroundText="dark" BackgroundColor="#ffffff" ToastCapable="true">
-        <DefaultTile ShowName="noLogos" WideLogo="images\widelogo.png" ShortName="MetroPress" />
+      <VisualElements DisplayName="Out of Comfort Zone" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Out of Comfort Zone Windows 8 app" ForegroundText="dark" BackgroundColor="#ffffff" ToastCapable="true">
+        <DefaultTile ShowName="noLogos" WideLogo="images\widelogo.png" ShortName="OOCZ" />
         <SplashScreen Image="images\splashscreen.png" BackgroundColor="#ffffff" />
         <InitialRotationPreference>
           <Rotation Preference="portrait" />

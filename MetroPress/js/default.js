@@ -16,7 +16,18 @@
     });
 
     WinJS.Application.onsettings = function (e) {
-        e.detail.applicationcommands = { "help": { title: "Help", href: "/pages/about-flyout.html" } };
+        //Adding the About page
+        e.detail.applicationCommands = {
+            "help": { title: "Help", href: "/pages/about-flyout.html" }
+        };
+
+        //Adding the Privacy Policy
+        var appCommands = e.detail.e.request.applicationCommands;
+        var appCmdPrivacy = new Windows.UI.ApplicationSettings.SettingsCommand("privacy", "Privacy Policy", function () {
+            window.open('http://outofcomfortzone.net/windows-8-application-privacy-policy/');
+        });
+        appCommands.append(appCmdPrivacy);
+
         WinJS.UI.SettingsFlyout.populateSettings(e);
     };
 

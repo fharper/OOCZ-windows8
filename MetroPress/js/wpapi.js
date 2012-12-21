@@ -14,19 +14,18 @@ var WPApi = {
     pagesFetched: null,
     refreshFetch: false,
 
-    apiURL: 'http://metrowordpress.azurewebsites.net/',
+    apiURL: 'http://outofcomfortzone.net/',
 
     userAgent: function () {
         return "wp-windows8";
     },
 
     options: {
-        appTitleImage: null,                        // App title image
-        appTitle: "Metro Press",                    // App title text
+        appTitleImage: 'ms-appx:/images/header.png',                        // App title image
         showRecent: true,                           // Enabled recent news category 
-        showPages: true,                            // Show pages in the main page
+        showPages: false,                            // Show pages in the main page
         showPageIds: [],                           // show pages by id
-        showCatIds: [41, 31, 21, 11],                  // Categories to show in the landing page order i.e. [1, 2, 3, 4]
+        showCatIds: [],           // Categories to show in the landing page order i.e. [1, 2, 3, 4]
         numberOfRelatedPosts: 4,                   // Number of related posts to display in the Post page
         cacheTime: 3600000,                         // Cache time to try fetch latest       
     },

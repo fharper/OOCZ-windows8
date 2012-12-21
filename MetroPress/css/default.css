@@ -7,7 +7,7 @@
 body {
     font: 11pt/15pt "Segoe UI";
     background-color: #fff;
-	background-image: url('/images/wpbg.jpg');
+	/*background-image: url('/images/wpbg.png');*/
 	background-size: cover;
     color: #000;
     height: 100%;
@@ -21,18 +21,15 @@ body {
 
 /* colors */
 .theme-color, a, a:link, a:visited {
-    color: #0094ff !important;    /*  link */
-}
-a:active, article a:hover {
-    color: #6bc1ff;    /* mouse over link */
+    color: #0088CC !important;    /*  link */
 }
 
 .theme-bg-color {
-    background-color: #0094ff !important;
+    background-color: white !important;
 }
 
 .fragment progress.win-ring {
-    color: #0094ff;
+    color: #F9EA00;
     width: 100px;
     height: 100px;
     position: absolute;
